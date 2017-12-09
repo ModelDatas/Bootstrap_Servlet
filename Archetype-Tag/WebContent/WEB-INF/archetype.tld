@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    
+    <description>A tag library exercising SimpleTag handlers.</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>artifact</short-name>
+    <uri>http://java.sun.com</uri>
+    
+    <tag>
+        <name>Ip</name>
+        <tag-class>com.archetype.tags.Artifact_Ip</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    
+    <tag>
+        <name>end</name>
+        <tag-class>com.archetype.tags.End_Tag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    
+    <tag>
+        <name>again</name>
+        <tag-class>com.archetype.tags.RepeatExecution</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    
+</taglib>
